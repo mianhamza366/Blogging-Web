@@ -1,112 +1,116 @@
 .container {
   padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.footer {
-  display: flex;
+.main {
   flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  flex-grow: 1;
 }
-
 .title a {
-  color: #0070f3;
+  color: rgb(61, 179, 25);
   text-decoration: none;
 }
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
-.title,
-.description {
+.form {
+  width: 45%;
+  font-family: arial;
+  margin-left: 30px;
+  height: 80%;
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin-top: 4px;
+  
+}
+.form1 {
+  width: 30%;
+  font-family: arial;
+  margin-left: 30px;
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 4px;
+
+}
+
+.formGroup {
+  width: 100%;
+  margin: 1rem 0px;
+  border-radius: 10px;
+}
+.formGroup1 {
+  width: 100%;
+  margin: 1rem 0px;
+  border-radius: 10px;
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
 }
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
+.formGroup input[type="text"] {
+  width: 100%;
+  padding: 10px;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+}
+.formGroup textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.button {
+  
+  border: none;
+  color:white;
+  background-color: rgb(61, 179, 25);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+.button1 {
+  
+  border: none;
+  color:white;
+  background-color: rgb(240, 13, 13);
+  padding: 15px 15px;
+  text-align: left;
+  text-decoration: none;
+  
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.image{
+  text-align: right;
+  float:right;
+  width: 150px;
+  height: 200px;
+  float: right;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
 
 @media (max-width: 600px) {
   .grid {
